@@ -6,7 +6,7 @@ spec:
   selector:
     app: app-will
   ports:
-    - port: 8888
+    - port: 8080
       name: http
       protocol: TCP
-      targetPort: 8888
+      targetPort: 8080
